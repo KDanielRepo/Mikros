@@ -14,4 +14,9 @@ public class Controller {
     public @ResponseBody String test(){
         return "test";
     }
+
+    @GetMapping("/two")
+    public void kek(){
+
+    }
 }
