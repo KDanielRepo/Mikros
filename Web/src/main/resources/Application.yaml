@@ -1,4 +1,11 @@
 spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: d072bfeab6c57fe45a02
+            clientSecret: 78cd8438fca68cffeb512faf1e3fc7e2115b4575
   application:
     name: spring-cloud-eureka-client
 server:
